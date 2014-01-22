@@ -1,10 +1,10 @@
-
 	Number of project	0001-Moravia		
 	Name of project	Moravia Test		
 	Created by( Date)	Ariel Vallina (Date:01/21/2014)		
 	Tester	Ariel Vallina		
 	Setup Test ( Software/Hardware)			
-	Prerequisites			
+	Requirements:Sign In
+	Prerequisites:			
 	
 	
 	
@@ -166,6 +166,7 @@
 
 	Setup Test (Software/Hardware)	
 
+	Requirements:Post message
 	Prerequisites User should be able to post any message . Email valid( Test case Sign In screen).	
 
 	
