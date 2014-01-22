@@ -1,13 +1,197 @@
-Number of Project:	0001-Moravia
-Name of Project:	Moravia Test
-Created by( Date):	Ariel Vallina (Date:01/21/2014)
-Tester:	Ariel Vallina 
-Setup Test ( Software/Hardware):
-	 
-Prerequisites:
+
+	Number of project	0001-Moravia		
+	Name of project	Moravia Test		
+	Created by( Date)	Ariel Vallina (Date:01/21/2014)		
+	Tester	Ariel Vallina		
+	Setup Test ( Software/Hardware)			
+	Prerequisites			
+	
+	
+	
+	
+	Test Case Name: Sign In screen- Valid Email address
+	Test Case Description: Verify Email address functionality with correct email address
+
+	Steps:
+
+	1- Navigate to www.casetest.com.
+
+	2- Enter a email address in the field Email.
+
+	3- Click on submit button
+
+	Inputs: Email:ariel_vallina@hotmail.com
+
+	Excepted Result: show main screen for the application
+
+	
+
+	Test Case Name: Sign In screen- Invalid Email address-Missing @ sign and domain
+
+	Test Case Description: Verify Email address functionality with invalid email address
+
+	Steps:
+
+	1- Navigate to www.casetest.com.
+
+	2- Enter a email address in the field Email.
+
+	3- Click on submit button
+
+	Inputs: Email:ariel_vallina
+
+	Excepted Result: Error message " Please enter correct Email address. @sign and domain is missing. " displayed.
+
+	
+
+	Test Case Name: Sign In screen- Invalid Email address-Missing username
+
+	Test Case Description Verify Email address functionality with invalid email address
+
+	Steps:
+
+	1- Navigate to www.casetest.com.
+
+	2- Enter a email address in the field Email.
+
+	3- Click on submit button
+
+	Inputs: Email:@hotmail.com
+
+	Excepted Result: Error message "Please enter correct Email address. Username is missing " displayed.
 
 
 
+	Test Case Name: Sign In screen- Invalid Email address-Missing @
+
+	Test Case Description :Verify Email address functionality with invalid email address
+
+	Steps:
+
+	1- Navigate to www.casetest.com.
+
+	2- Enter a email address in the field Email.
+
+	3- Click on submit button
+
+	Inputs: Email: ariel_vallina.hotmail.com
+
+	Excepted Result: Error message " Please enter correct Email address. @sign is missing " displayed.
+
+	
+
+	Test Case Name: Sign In screen- Invalid Email address-Missing top level domain (.com/.net/.org/etc)
+
+	Test Case Description : Verify Email address functionality with invalid email address
+
+	Steps:
+
+	1- Navigate to www.casetest.com.
+
+	2- Enter a email address in the field Email.
+
+	3- Click on submit button
+
+	Inputs: Email:ariel_vallina@hotmail.
+
+	Excepted Result: Error message " Please enter correct Email address. Top level domain(.com/.net/.org/etc) is missing " displayed.
+
+
+	
+	Test Case Name: Sign In screen- Invalid Email address-Multiple dots
+
+	Test Case Description : Verify Email address functionality with invalid email address
+
+	Steps:
+
+	1- Navigate to www.casetest.com.
+
+	2- Enter a email address in the field Email.
+
+	3- Click on submit button
+
+	Inputs: Email:ariel..vallina@hotmail.com
+
+	Excepted Result: Error message " Please enter correct Email address. Multiple dots " displayed.
+
+
+
+
+	Test Case Name: Sign In screen- Invalid Email address- Invalid Email address-Garbage
+
+	Test Case Description : Verify Email address functionality with invalid email address
+
+	Steps:
+
+	1- Navigate to www.casetest.com.
+
+	2- Enter a email address in the field Email.
+
+	3- Click on submit button
+
+	Inputs: Email: Email: #@%^%#$@#$@#.com
+
+	Excepted Result: Error message " Please enter correct Email address. Username , @ sign, domain is missing " displayed.
+
+
+
+	Test Case Name: Sign In screen- Invalid Email address- Invalid Email address-Multiple dot in the domain portion
+
+	Test Case Description : Verify Email address functionality with invalid email address
+
+	Steps:
+
+	1- Navigate to www.casetest.com.
+
+	2- Enter a email address in the field Email.
+
+	3- Click on submit button
+
+	Inputs: Email: Email:ariel_vallina@hotmail..com
+
+	Excepted Result Error message " Please enter correct Email address. Multiple dot in the domain portion. " displayed.
+
+
+
+
+
+
+	Number of project 0001-Moravia
+
+	Name of project Moravia Test
+
+	Created by( Date) Ariel Vallina (Date:01/21/2014)
+
+	Tester Ariel Vallina
+
+	Setup Test (Software/Hardware)	
+
+	Prerequisites User should be able to post any message . Email valid( Test case Sign In screen).	
+
+	
+
+
+
+
+	Test Case Name: Post message - Input New Message
+
+	Test Case Description: User Input New message
+
+	Steps:
+
+	1- Click on message Text Box.
+
+	2- Input a message on Text Box.
+
+	3- Click on publish Button.
+
+	Inputs: Message: “ Hello world”.
+
+		E.mail: Ariel_vallina@hotmail.com
+
+		Posted: 1 seconds ago
+
+	Excepted Result : Message “Hello world “ apper on the top list the input. Then below the Input appers email( Ariel_Vallina@hotmail.com )and posted : 1 seconds ago
 
 
 
